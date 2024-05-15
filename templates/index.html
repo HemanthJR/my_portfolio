@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HR | Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="{{url_for('static', filename='images/favicon.png')}}">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="{{url_for('static', filename='css/open-iconic-bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/animate.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/magnific-popup.css')}}">
+
+	<link rel="stylesheet" href="{{url_for('static', filename='css/aos.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/skills.css')}}">
+
+	<link rel="stylesheet" href="{{url_for('static', filename='css/ionicons.min.css')}}">
+
+	<link rel="stylesheet" href="{{url_for('static', filename='css/flaticon.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/icomoon.css')}}">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand mr-4" href="index.html"><span>H</span>emanth</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="hero-wrap js-fullheight">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+					<div class="text text-center">
+						<span class="subheading">Hey! I am</span>
+						<h1>HEMANTH RAJ</h1>
+						<h2>I'm a
+							<span class="txt-rotate" data-period="1000"
+								data-rotate='[ "Python Developer.", "Django Developer", "Flask Developer." ]'></span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-6 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center"
+							style="background-image: url({{about_img}});">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+					<div class="row justify-content-start pb-3">
+						<div class="col-md-12 heading-section ftco-animate">
+							<h1 class="big">About</h1>
+							<h2 class="mb-4">Me In A Nutshell</h2>
+							<p style="text-align: justify;">Hello! I'm Hemanth Raj, a passionate individual with a keen
+								interest in web development.
+								My aspiration is to become a proficient full-stack developer, adept at both front-end
+								and back-end technologies. My journey in the world of technology began with a curiosity
+								to understand how websites work and has evolved into a deep-seated passion for creating
+								seamless digital experiences. I'm committed to continuous learning and growth, eager to
+								take on new challenges and contribute meaningfully to the ever-evolving landscape of web
+								development.</p>
+							<ul class="about-info mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span> <span>Hemanth Raj S</span></li>
+								<li class="d-flex"><span>Date of birth:</span> <span>24 MAR 2002</span></li>
+								<li class="d-flex"><span>Address:</span> <span>Subramiyapuram, Machuvadi,
+										Pudukkottai</span></li>
+								<li class="d-flex"><span>Zip code:</span> <span>622005</span></li>
+								<li class="d-flex"><span>Email:</span> <span>smhemanth24@gmail.com</span></li>
+								<li class="d-flex"><span>Phone: </span> <span>+91 9788437223</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<div class="text">
+							<p class="mb-4">
+								<span class="number" data-number="10">0</span>
+								<span>Project complete</span>
+							</p>
+							<p><a href="{{url_for('download_file')}}" class="btn btn-primary py-3 px-3">Download CV</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<nav id="navi">
+						<ul>
+							<li><a href="#page-1">Education</a></li>
+							<li><a href="#page-2">Certification</a></li>
+							<li><a href="#page-3">Skills</a></li>
+							<li><a href="#page-4">Awards</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-9">
+					<div id="page-1" class="page one">
+						<h2 class="heading">Education</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2022-2024</span>
+								<h2>Master Of Computer Application</h2>
+								<span class="position">Bishop Heber College, Trichy</span>
+								<p><b>PERCENTAGE: </b>73.82</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2019-2022</span>
+								<h2>Bachelor Of Computer Science</h2>
+								<span class="position">Bishop Heber College, Trichy</span>
+								<p><b>PERCENTAGE: </b>76.73</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2017-2019</span>
+								<h2>HSC</h2>
+								<span class="position">Vairams Matriculation Higher Secondary School, Pudukkottai</span>
+								<p><b>PERCENTAGE: </b>64.33</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2016-2017</span>
+								<h2>SSLC</h2>
+								<span class="position">The L.A. Jayarani Matriculation School, Pudukkottai</span>
+								<p><b>PERCENTAGE: </b>88.02</p>
+							</div>
+						</div>
+					</div>
+					<!-- certificate section -->
+					<div id="page-2" class="page two">
+						<h2 class="heading">Certification</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<h2>Programming In Python</h2>
+								<span class="position">T4TEQ Solution</span>
+								<p>To Verify: <a href="https://verify.t4teq.com/?id=HE22003Q06010987&vf=Verify"
+										target="_blank">HE22003Q06010987</a></p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<h2>Web Designing</h2>
+								<span class="position">T4TEQ Solution</span>
+								<p>To Verify: <a href="https://verify.t4teq.com/?id=HE22085Q18050719&vf=Verify"
+										target="_blank">HE22085Q18050719</a></p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<h2>Python For Data Science</h2>
+								<span class="position">National Programme on Technology Enhanced Learning (NPTEL)</span>
+								<p>To Verify: <a
+										href="https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs54/Course/NPTEL24CS54S65640059430057257.pdf"
+										target="_blank">NPTEL24CS54S65640059430057257</a> </p>
+							</div>
+						</div>
+
+						<!-- skills section -->
+						<div id="page-3" class="page three ftco-animate">
+							<h2 class="heading">Skills</h2>
+							<div class="skills container ftco-animate">
+								<ul>
+
+									<li class="skills-card">
+										<h4>HTML5</h4>
+										<img src="{{url_for('static', filename='images/icons/html.png')}}"
+											class="skills-logo" alt="html">
+									</li>
+									<li class="skills-card">
+										<h4>CSS3</h4>
+										<img src="{{url_for('static', filename='images/icons/css.png')}}"
+											class="skills-logo" alt="css">
+									</li>
+									<li class="skills-card">
+										<h4>JAVASCRIPT</h4>
+										<img src="{{url_for('static', filename='images/icons/javascript.png')}}"
+											id="sass" class="skills-logo" alt="javascript">
+									</li>
+									<li class="skills-card">
+										<h4>REACT</h4>
+										<img src="{{url_for('static', filename='images/icons/react.png')}}"
+											class="skills-logo" alt="react">
+									</li>
+									<li class="skills-card">
+										<h4>PYTHON</h4>
+										<img src="{{url_for('static', filename='images/icons/python.png')}}"
+											class="skills-logo" alt="python">
+									</li>
+									<li class="skills-card">
+										<h4>DJANGO</h4>
+										<img src="{{url_for('static', filename='images/icons/django.png')}}"
+											class="skills-logo" alt="django">
+									</li>
+									<li class="skills-card">
+										<h4>FLASK</h4>
+										<img src="{{url_for('static', filename='images/icons/flask.png')}}"
+											class="skills-logo" alt="flask">
+									</li>
+									<li class="skills-card">
+										<h4>MONGODB</h4>
+										<img src="{{url_for('static', filename='images/icons/mongodb.png')}}"
+											class="skills-logo" alt="mongodb">
+									</li>
+								</ul>
+							</div>
+
+							<div id="page-4" class="page four">
+								<h2 class="heading">Awards</h2>
+								<div class="resume-wrap d-flex ftco-animate">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2022</span>
+										<h2>Second National E-Conference on Recent Trends in Computation Intelligence
+										</h2>
+										<span class="position">NCRTCI</span>
+										<p>A small river named Duden flows by their place and supplies it with the
+											necessary
+											regelialia. It is a paradisematic country, in which roasted parts of
+											sentences fly
+											into your mouth.</p>
+									</div>
+								</div>
+								<div class="resume-wrap d-flex ftco-animate">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2024</span>
+										<h2>Coding Challenge</h2>
+										<span class="position">Bishop Heber College</span>
+										<p>A small river named Duden flows by their place and supplies it with the
+											necessary
+											regelialia. It is a paradisematic country, in which roasted parts of
+											sentences fly
+											into your mouth.</p>
+									</div>
+								</div>
+								<div class="resume-wrap d-flex ftco-animate">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2014-2015</span>
+										<h2>Top 4 Web Tester</h2>
+										<span class="position">Cambridge University</span>
+										<p>A small river named Duden flows by their place and supplies it with the
+											necessary
+											regelialia. It is a paradisematic country, in which roasted parts of
+											sentences fly
+											into your mouth.</p>
+									</div>
+								</div>
+								<div class="resume-wrap d-flex ftco-animate">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2014-2015</span>
+										<h2>Art &amp; Creative Director</h2>
+										<span class="position">Cambridge University</span>
+										<p>A small river named Duden flows by their place and supplies it with the
+											necessary
+											regelialia. It is a paradisematic country, in which roasted parts of
+											sentences fly
+											into your mouth.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</section>
+
+
+	<section class="ftco-section ftco-project" id="projects-section">
+		<div class="container-fluid px-md-0">
+			<div class="row no-gutters justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">My Projects</h2>
+					<p>Unlock creativity. Explore my groundbreaking projects. <br> Let's innovate together!</p>
+				</div>
+			</div>
+
+			<div class="row no-gutters justify-content-center">
+				<div class="proj-cont">
+					<div class="proj">
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-outline-primary p-3" data-bs-toggle="modal"
+							data-bs-target="#staticBackdrop">
+							Student Management System
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+							tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel">Student Management System</h5>
+									</div>
+									<div class="modal-body">
+										<ul>
+											<li>The Student Management System is a project developed using HTML, CSS,
+												and
+												JavaScript for the front-end, with Django as the framework and Python
+												and
+												SQLite for the back-end. This system is primarily focused on monitoring
+												the
+												regular activities of school students.</li>
+											<li>The existing system operates manually, making record searching a long
+												process and lacking security measures, which poses a risk of data loss
+												without any recovery options. In contrast, the new system functions as a
+												website offering enhanced security, fast record searching, and secure
+												data
+												storage in the cloud.</li>
+											<li>The system comprises three modules: admin, staff, and student. The admin
+												module plays a crucial role in managing all records.</li>
+											<li>he staff module includes features such as assigning marks to students,
+												managing attendance, applying for leave, and providing feedback.</li>
+											<li>The student module allows students to view their marks and attendance,
+												apply
+												for leave, and give feedback.</li>
+											<li>Additionally, the proposed system includes language options to
+												accommodate students' parents who may not be well-versed in English,
+												with available translations in Tamil and other languages. </li>
+											<li>Furthermore, the system has been developed as a mobile application for ease of use.</li>
+										</ul>
+										<p style="color: black;"><b>Technology:</b></p>
+										<div class="proj-app">
+											<div class="pjapp1"><b>HTML</b></div>
+											<div class="pjapp1"><b>CSS</b></div>
+											<div class="pjapp1"><b>Javascript</b></div>
+											<div class="pjapp1"><b>Jquery</b></div>
+											<div class="pjapp1"><b>Ajax</b></div>
+											<div class="pjapp1"><b>Python</b></div>
+											<div class="pjapp1"><b>Django</b></div>
+											<div class="pjapp1"><b>SQLite</b></div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-outline-primary"
+											data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="proj">
+						<!-- Button trigger modal -->
+						<button type="button" class="proj-btn btn btn-outline-primary p-3" data-bs-toggle="modal"
+							data-bs-target="#staticBackdrop1">
+							The Martin
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+							tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel1">The Martin | Mini - Project
+										</h5>
+									</div>
+									<div class="modal-body">
+										<ul>
+											<li>The name of the project is The Martin.</li>
+											<li>To develop this project, I have used HTML, CSS, JavaScript, Flask, and
+												MongoDB</li>
+											<li>The project is named "The Martin" because it revolves around the concept
+												of buying land on the moon.</li>
+											<li>The name reflects the futuristic and imaginative nature of the project,
+												aiming to capture the curiosity and interest of users who dream of
+												owning a piece of lunar real estate.</li>
+											<li>It is a simple project that takes input from a user, stores it in a
+												database, and displays it on the same page.</li>
+											<li>Specifically, users can enter details such as their name and the desired
+												plot on the moon. This information is then stored securely in a MongoDB
+												database.</li>
+											<li>Once the data is stored, the same page updates to display the entered
+												information, providing instant feedback to the user and confirming their
+												"purchase" of lunar land.</li>
+										</ul>
+										<p style="color: black;"><b>Technology:</b></p>
+										<div class="proj-app">
+											<div class="pjapp1"><b>HTML</b></div>
+											<div class="pjapp1"><b>CSS</b></div>
+											<div class="pjapp1"><b>Javascript</b></div>
+											<div class="pjapp1"><b>Jquery</b></div>
+											<div class="pjapp1"><b>Ajax</b></div>
+											<div class="pjapp1"><b>Python</b></div>
+											<div class="pjapp1"><b>Flask</b></div>
+											<div class="pjapp1"><b>Mongodb</b></div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-outline-primary"
+											data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="proj">
+						<!-- Button trigger modal -->
+						<button type="button" class="proj-btn btn btn-outline-primary p-3" data-bs-toggle="modal"
+							data-bs-target="#staticBackdrop2">
+							Moviepedia
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+							tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel2">Moviepedia | Mini - Project
+										</h5>
+									</div>
+									<div class="modal-body">
+										<ul>
+											<li>The name of the project is Moviepedia.
+												In this project, I have used web scraping techniques to extract
+												elements, tags, and other data from web pages, and display them in a
+												structured template.</li>
+											<li>Specifically, I targeted the IMDb website to scrape data from their top
+												250 movies list.
+												From the top 250 movies, I selected 50 movies to display on the
+												Moviepedia website.</li>
+											<li>To perform the web scraping, I used a Python package called
+												BeautifulSoup (bs4).</li>
+											<li>The extracted data includes movie titles, ratings, directors, and other
+												relevant details.</li>
+											<li>Users can visit the Moviepedia website, browse through the selected 50
+												movies, and view detailed information about each movie.Additionally,
+												users can select any movie from the list and post comments, including
+												star ratings and textual comments.</li>
+											<li>All user comments and ratings are stored in a MongoDB server to ensure
+												data persistence and easy retrieval.</li>
+											<li>The system allows users to interact with the content dynamically,
+												enhancing their browsing experience.</li>
+										</ul>
+										<p style="color: black;"><b>Technology:</b></p>
+										<div class="proj-app">
+											<div class="pjapp1"><b>HTML</b></div>
+											<div class="pjapp1"><b>CSS</b></div>
+											<div class="pjapp1"><b>Javascript</b></div>
+											<div class="pjapp1"><b>Jquery</b></div>
+											<div class="pjapp1"><b>Ajax</b></div>
+											<div class="pjapp1"><b>Python</b></div>
+											<div class="pjapp1"><b>Flask</b></div>
+											<div class="pjapp1"><b>Mongodb</b></div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-outline-primary"
+											data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="proj">
+						<!-- Button trigger modal -->
+						<button type="button" class="proj-btn btn btn-outline-primary p-3" data-bs-toggle="modal"
+							data-bs-target="#staticBackdrop4">
+							ToDo List
+						</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"
+							tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel4">ToDo List | Mini - Project
+										</h5>
+									</div>
+									<div class="modal-body">
+										<ul>
+											<li>The Student Management System is a project developed using HTML, CSS,
+												and
+												JavaScript for the front-end, with Django as the framework and Python
+												and
+												SQLite for the back-end. This system is primarily focused on monitoring
+												the
+												regular activities of school students.</li>
+											<li>The existing system operates manually, making record searching a long
+												process and lacking security measures, which poses a risk of data loss
+												without any recovery options. In contrast, the new system functions as a
+												website offering enhanced security, fast record searching, and secure
+												data
+												storage in the cloud.</li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+											<li></li>
+										</ul>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-outline-primary"
+											data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+	<section class="ftco-section ftco-hireme img" style="background-image: url({{bg_img}});">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>I'm <span>Available</span> To Work</h2>
+					<p>Let's connect and create something awesome together! Reach me out and let's turn your ideas into
+						reality.</p>
+					<p class="mb-0"><a href="{{ url_for('contact') }}" class="btn btn-primary py-3 px-5">Hire me</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Contact</h1>
+					<h2 class="mb-4">Contact Me</h2>
+					<p>Have any Questions? Feel free to drop me a message using the form below. i'd love to hear from
+						you!.</p>
+				</div>
+			</div>
+
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Address</h3>
+							<p>Subramiyapuram, Machuvadi, Pudukkottai</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Contact Number</h3>
+							<p><a href="tel://1234567920">+91 9788437223</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Email Address</h3>
+							<p><a href="mailto:info@yoursite.com">smhemanth24@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-globe"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Website</h3>
+							<p><a href="#">yoursite.com</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row no-gutters block-9" id="form-section">
+				<div class="col-md-6 order-md-last d-flex">
+					<form action="https://formspree.io/f/mjvnzroo" class="bg-light p-4 p-md-5 contact-form"
+						method="POST" autocomplete="off">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Your Name" name="Name" required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Your Email" name="Email" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Subject" name="Subject" required>
+						</div>
+						<div class="form-group">
+							<textarea name="Message" id="" cols="30" rows="7" class="form-control" placeholder="Message"
+								required></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+						</div>
+					</form>
+
+				</div>
+
+				<div class="col-md-6 d-flex">
+					<div class="img" style="background-image: url({{about_img}});"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/jquery-migrate-3.0.1.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/jquery.easing.1.3.js')}}"></script>
+	<script src="{{url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/jquery.stellar.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/aos.js')}}"></script>
+	<script src="{{url_for('static', filename='js/jquery.animateNumber.min.js')}}"></script>
+	<script src="{{url_for('static', filename='js/scrollax.min.js')}}"></script>
+
+	<script src="{{url_for('static', filename='js/main.js')}}"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>

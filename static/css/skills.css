@@ -1,0 +1,53 @@
+
+
+
+.skills {
+    height: auto;
+    margin: 1rem 0 5rem 0;
+    text-align: center;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skills-card {
+    /* border: 1px solid red; */
+        margin-top: 2rem;
+        background-color: #007bff;
+        color: #333;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+        padding: 20px;
+        text-align: center;
+        transition: 250ms transform ease-in-out;
+        width: 9rem;
+        cursor: pointer;
+        list-style-type: none;
+}
+
+.skills-card h4 {
+    color: #fff;
+    padding-bottom: 1rem;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.skills-card:hover{
+    transform: translateY(-15px);
+    background-color: #fff;
+}
+.skills-card:hover > h4{
+    color: #000;
+}
+.skills-card:active {
+    transform: translateY(5px);
+}

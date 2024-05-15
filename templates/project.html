@@ -1,0 +1,64 @@
+{% extends "index.html" %}
+
+{% block projecttitle %}
+<div class="container-fluid px-md-0">
+    <div class="row no-gutters justify-content-center  pb-2">
+        <div class="col-md-12 heading-section text-center ftco-animate-right">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-3">My Projects</h2>
+            <p>Unlock creativity. Explore my groundbreaking projects. <br> Let's innovate together!</p>
+        </div>
+    </div>
+</div>
+<hr>
+{% endblock projecttitle %}
+
+{% block sms %}
+<div class="row justify-content-center block-9 ftco-animate-left">
+    <div class="col-md-9 order-md-last pl-4">
+        <h1 class="mb-3"> <b>Student Management System</b></h1>
+        <ul>
+            <li>The Student Management System is a project developed using HTML, CSS, and JavaScript for the front-end, with Django as the framework and Python and SQLite for the back-end. This system is primarily focused on monitoring the regular activities of school students.</li>
+            <li>The existing system operates manually, making record searching a long process and lacking security measures, which poses a risk of data loss without any recovery options. In contrast, the new system functions as a website offering enhanced security, fast record searching, and secure data storage in the cloud.</li>
+            <li>The system comprises three modules: admin, staff, and student. The admin module plays a crucial role in managing all records.</li>
+            <li>he staff module includes features such as assigning marks to students, managing attendance, applying for leave, and providing feedback.</li>
+            <li>The student module allows students to view their marks and attendance, apply for leave, and give feedback.</li>
+            <li>Additionally, the proposed system includes language options to accommodate students' parents who may not be well-versed in English, with available translations in Tamil and other languages.</li>
+            <li>Furthermore, the system has been developed as a mobile application for ease of use.</li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block modalsms %}
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    View
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Student Management System</h5>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li>The Student Management System is a project developed using HTML, CSS, and JavaScript for the front-end, with Django as the framework and Python and SQLite for the back-end. This system is primarily focused on monitoring the regular activities of school students.</li>
+                <li>The existing system operates manually, making record searching a long process and lacking security measures, which poses a risk of data loss without any recovery options. In contrast, the new system functions as a website offering enhanced security, fast record searching, and secure data storage in the cloud.</li>
+                <li>The system comprises three modules: admin, staff, and student. The admin module plays a crucial role in managing all records.</li>
+                <li>he staff module includes features such as assigning marks to students, managing attendance, applying for leave, and providing feedback.</li>
+                <li>The student module allows students to view their marks and attendance, apply for leave, and give feedback.</li>
+                <li>Additionally, the proposed system includes language options to accommodate students' parents who may not be well-versed in English, with available translations in Tamil and other languages.</li>
+                <li>Furthermore, the system has been developed as a mobile application for ease of use.</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+    </div>
+  </div>
+{% endblock modalsms %}

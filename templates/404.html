@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/404.css')}}">
+    <title>HR | Page Error</title>
+</head>
+
+<body>
+    <section class="proj-error">
+            <div class="error-div row no-gutters justify-content-center align-items-center pb-5">
+                <div class="error-div col-md-12 heading-section text-center ">
+                    <h1 class="big big-2">Projects</h1>
+                    <h2 class="mb-2" style="font-size: 100px;">404 ERROR</h2>
+                    <p>Oops! Lost in cyberspace. Let's find our way back.</p>
+                    <button class="btn btn-outline-primary" onclick="back()">Go Back</button>
+                </div>
+            </div>
+    </section>
+    <script>
+        function back(){
+            window.location.href='/'
+        }
+    </script>
+</body>
+
+</html>
