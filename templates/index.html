@@ -265,22 +265,7 @@
 
 							<div id="page-4" class="page four">
 								<h2 class="heading">Awards</h2>
-								<div class="resume-wrap d-flex ftco-animate">
-									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="flaticon-ideas"></span>
-									</div>
-									<div class="text pl-3">
-										<span class="date">2022</span>
-										<h2>Second National E-Conference on Recent Trends in Computation Intelligence
-										</h2>
-										<span class="position">NCRTCI</span>
-										<p>A small river named Duden flows by their place and supplies it with the
-											necessary
-											regelialia. It is a paradisematic country, in which roasted parts of
-											sentences fly
-											into your mouth.</p>
-									</div>
-								</div>
+								
 								<div class="resume-wrap d-flex ftco-animate">
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="flaticon-ideas"></span>
@@ -324,6 +309,18 @@
 											regelialia. It is a paradisematic country, in which roasted parts of
 											sentences fly
 											into your mouth.</p>
+									</div>
+								</div>
+								<div class="resume-wrap d-flex ftco-animate">
+									<div class="icon d-flex align-items-center justify-content-center">
+										<span class="flaticon-ideas"></span>
+									</div>
+									<div class="text pl-3">
+										<span class="date">2022</span>
+										<h2>Second National E-Conference on Recent Trends in Computational Intelligence
+										</h2>
+										<span class="position">NCRTCI</span>
+										<p><a href="#" data-bs-toggle="modal" data-bs-target="#showImg1">click to view</a></p>
 									</div>
 								</div>
 							</div>
@@ -678,7 +675,20 @@
 		</div>
 	</section>
 
+	<!-- modals -->
+	<div class="modal fade" id="showImg1" aria-labelledby="showImg1" aria-hidden="true" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="{{url_for('static', filename='images/HEMANTH RAJ S.JPEG')}}" alt="certificate" style="width: 100%; height: auto;">
+				</div>
 
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
