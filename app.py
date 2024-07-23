@@ -18,9 +18,6 @@ def download_file():
     path="RESUME.pdf"
     return send_file(path,as_attachment=True)
 
-@app.route('/project')
-def project():
-    return render_template('project.html')
 
 @app.errorhandler(404)
 def page_not_found(e):
