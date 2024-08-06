@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    about_img = url_for('static', filename='images/about.jpg')
+    about_img = url_for('static', filename='images/me3.jpg')
     bg_img = url_for('static', filename='images/bg_1.jpg')
     return render_template('index.html', about_img = about_img, bg_img = bg_img)
 
