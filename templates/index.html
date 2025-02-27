@@ -128,15 +128,44 @@
 				<div class="col-md-3">
 					<nav id="navi">
 						<ul>
-							<li><a href="#page-1">Education</a></li>
-							<li><a href="#page-2">Certification</a></li>
-							<li><a href="#page-3">Skills</a></li>
-							<li><a href="#page-4">Awards</a></li>
+							<li><a href="#page-1">Experience</a></li>
+					                <li><a href="#page-2">Education</a></li>
+					                <li><a href="#page-3">Certification</a></li>
+					                <li><a href="#page-4">Skills</a></li>
+					                <li><a href="#page-5">Awards</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="col-md-9">
-					<div id="page-1" class="page one">
+					<div class="text pl-3">
+			                  <span class="date">DEC 2024-Present</span>
+			                  <h2>Python Developer</h2>
+			                  <span class="position">By8labs</span>
+			                  <ul>
+			                    <li>
+			                      Developed an AI-powered web application using Flask and
+			                      GPT models, integrating Azure CosmosDB for efficient data
+			                      storage.
+			                    </li>
+			                    <li>
+			                      Designed and optimized RESTful APIs to handle AI
+			                      interactions, ensuring seamless communication between the
+			                      model and the application.
+			                    </li>
+			                    <li>
+			                      Implemented authentication, authorization, and security
+			                      measures to safeguard data and improve system reliability.
+			                    </li>
+			                    <li>
+			                      Worked closely with teams to enhance AI-driven features,
+			                      optimize performance, and troubleshoot technical
+			                      challenges.
+			                    </li>
+			                  </ul>
+			                  
+			                </div>
+					
+					<div id="page-2" class="page one">
 						<h2 class="heading">Education</h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
@@ -184,7 +213,7 @@
 						</div>
 					</div>
 					<!-- certificate section -->
-					<div id="page-2" class="page two">
+					<div id="page-3" class="page two">
 						<h2 class="heading">Certification</h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
@@ -222,7 +251,7 @@
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+								<span class="flaticon-innovation"></span>
 							</div>
 							<div class="text pl-3">
 								<h2>React Js</h2>
@@ -233,8 +262,28 @@
 							</div>
 						</div>
 
+						<div class="resume-wrap d-flex ftco-animate">
+					                <div
+					                  class="icon d-flex align-items-center justify-content-center"
+					                >
+					                  <span class="flaticon-innovation"></span>
+					                </div>
+					                <div class="text pl-3">
+					                  <h2>Django REST Frameword</h2>
+					                  <span class="position">Udemey</span>
+					                  <p>
+					                    To Verify:
+					                    <a
+					                      href="https://www.udemy.com/certificate/UC-ed3b6f6d-386b-4f8e-bfba-28ad56600ee0/"
+					                      target="_blank"
+					                      >Click to Inspect</a
+					                    >
+					                  </p>
+					                </div>
+					        </div>
+
 						<!-- skills section -->
-						<div id="page-3" class="page three ftco-animate">
+						<div id="page-4" class="page three ftco-animate">
 							<h2 class="heading">Skills</h2>
 							<div class="skills container ftco-animate">
 								<ul>
@@ -292,8 +341,29 @@
 								</ul>
 							</div>
 
-							<div id="page-4" class="page four">
+							<div id="page-5" class="page four">
 								<h2 class="heading">Awards</h2>
+
+								<div class="resume-wrap d-flex ftco-animate">
+						                    <div
+						                      class="icon d-flex align-items-center justify-content-center"
+						                    >
+						                      <span class="flaticon-idea"></span>
+						                    </div>
+						                    <div class="text pl-3">
+						                      <span class="date">2024</span>
+						                      <h2>Code Crack</h2>
+						                      <span class="position">Bishop Heber College</span>
+						                      <p>
+						                        <a
+						                          href="#"
+						                          data-bs-toggle="modal"
+						                          data-bs-target="#showImg2"
+						                          >Click to Inspect</a
+						                        >
+						                      </p>
+						                    </div>
+						                  </div>
 								<div class="resume-wrap d-flex ftco-animate">
 									<div class="icon d-flex align-items-center justify-content-center">
 										<span class="flaticon-idea"></span>
@@ -724,6 +794,20 @@
 			<div class="modal-content">
 				<div class="modal-body">
 					<img src="{{url_for('static', filename='images/certificate_4.jpg')}}" alt="certificate" style="width: 100%; height: auto;">
+				</div>
+
+				<div class="modal-footer">
+					<button class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="showImg2" aria-labelledby="showImg1" aria-hidden="true" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="{{url_for('static', filename='images/certificate_5.jpg')}}" alt="certificate" style="width: 100%; height: auto;">
 				</div>
 
 				<div class="modal-footer">
